@@ -1,5 +1,5 @@
 {
-  "name": "@fastify/printallroutes",
+  "name": "@akansari/printallroutes",
   "version": "1.0.1",
   "description": "this is a fastify plugin to print all the routes present in the fastify server",
   "main": "dist/index.js",
