@@ -9,7 +9,7 @@ export default fastifyPlugin<{
   ignoreList: string[];
   logger?: (message: string) => void;
 }>((fastify, opts, next) => {
-  const ignoreList: string[] = ["documentation"];
+  const ignoreList: string[] = opts.ignoreList || [];
   const routes = [];
 
   const { logger = console.log } = opts;

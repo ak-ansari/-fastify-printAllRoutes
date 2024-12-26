@@ -1,6 +1,6 @@
 {
-  "name": "@fastify/printAllRoutes",
-  "version": "1.0.0",
+  "name": "@fastify/printallroutes",
+  "version": "1.0.1",
   "description": "this is a fastify plugin to print all the routes present in the fastify server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,5 +27,18 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "fastify-plugin": "^4.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak-ansari/-fastify-printAllRoutes.git"
+  },
+  "keywords": [
+    "fastify",
+    "blipp",
+    "printroute"
+  ],
+  "bugs": {
+    "url": "https://github.com/ak-ansari/-fastify-printAllRoutes/issues"
+  },
+  "homepage": "https://github.com/ak-ansari/-fastify-printAllRoutes#readme"
 }
