@@ -1,0 +1,7 @@
+.gitignore
+.lintstagedrc
+.prettierignore
+.prettierrc
+.nodemon.json
+.tsconfig.json
+.eslintrc.json
